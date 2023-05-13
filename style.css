@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+}
+#menusuperior{
+    background-color: #303030;
+    color: white;
+
+}
+
+#titulo-menu{
+    padding:75px 200px 0px 40px;
+}
+#texto-menu{
+    padding: 15px 0px 60px 40px;
+}
+#menu-informativo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+
+}
+.info{
+    padding: 50px;
+}
+spam{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#sobremim{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+#foto{
+    width: 340px;
+    height: 425px;
+}
+#textos-sobremim{
+    margin-left: 50px;
+}
+
+#texto-sobremim{
+    margin-top: 40px;
+}
+#formulario{
+    padding-top: 50px;
+    background-color: #303030;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
+#formu{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+input{
+    margin-top: 30px;
+    height: 40px;
+    width: 320px;
+    border: 0px;
+    border-radius: 5px;
+
+
+
+}
+button{
+    background-color: #C07212;
+    color: white;
+    width: 226px;
+    height: 54px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 30px;
+}
+#titulo-form{
+    padding: 50px;
+}
+button:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    background-color: #f5951f;
+    box-shadow: 0px 15px 20px #00000086;
+}
